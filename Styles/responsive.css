@@ -38,9 +38,10 @@
 }
 /* Sponsors Section Responsivness */
     .sponsors-container {
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 31px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
     padding: 50px 42px;
 }
 /* Popular Collection Section */
