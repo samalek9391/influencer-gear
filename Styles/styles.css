@@ -163,3 +163,42 @@
     font-size: 1.125rem;
     cursor: pointer;
 }
+/* Featured Product Styles */
+.featured-product {
+    gap: 100px;
+    max-width: 80%;
+}
+
+.featured-product-image {
+    width: 36%;
+}
+.featured-product-image img {
+    width: 100%;
+}
+.featured-product-content {
+    width: 66%;
+}
+
+.featured-product-title {
+    font-size: 2.375rem;
+    color: #0A0826;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 32px;
+}
+
+.featured-product-description {
+    font-weight: 700;
+    color: #6C6C6C;
+    margin-bottom: 32px;
+}
+
+.featured-product-content button {
+ background-color:#E02C6D;
+ color: #ffffff;
+ padding: 10px 25px;
+ border: none;
+ font-weight: 700;
+ font-size: 1.125rem;
+
+}

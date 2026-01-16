@@ -54,9 +54,14 @@
     gap: 30px;
     margin: 0 auto;
 }
-
+/* Popular featured section */
+    .featured-product {
+        flex-direction: column-reverse;
+    }
+    .featured-product-image {
+        width: 100%;
 }
-
+}
 /* Tablet device 577px to 768px */
 @media screen and (min-width: 576px) and (max-width:768px){
      .nav-bar {
